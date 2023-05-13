@@ -86,6 +86,7 @@ button:hover,
 #calculum-history {
     color: #8287a1;
     width: 100%;
+    text-align: end;
 }
 
 #operation-now, 
