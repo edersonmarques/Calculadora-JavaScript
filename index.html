@@ -10,7 +10,14 @@
 </head>
 <body>
     <main id="calculator">
-        <input type="text" id="calculum-info" readonly>
+        <!-- <input type="text" id="calculum-info" readonly> -->
+        <div id="calculum-info">
+            <div id="calculum-history"></div>
+            <div id="calculum-now">
+                <span id="operation-now"></span>
+                <span id="number-now"></span>
+            </div>
+        </div>
         <ul id="inputs">
             <li id="clear" class="utility-button"><button id="clear" class="utility-button">C</button></li>
             <li  class="utility-button"><button id="percent" class="utility-button">%</button></li>

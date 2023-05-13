@@ -78,3 +78,11 @@ button:hover,
 }
 
 
+#calculum-history {
+    color: #8287a1;
+}
+
+#operation-now, 
+#number-now {
+    color: #fcfefe;
+}
