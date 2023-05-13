@@ -94,6 +94,17 @@ button:hover,
     color: #fcfefe;
 }
 
+#operation-now {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#number-now {
+    font-size: 35px;
+}
+
 #calculum-now {
     width: 100%;
     display: flex;
