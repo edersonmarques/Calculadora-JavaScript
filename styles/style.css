@@ -60,6 +60,11 @@ button {
     width: 215px;
     margin-bottom: 3px;
     height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
 }
 
 #equal-button
@@ -80,9 +85,18 @@ button:hover,
 
 #calculum-history {
     color: #8287a1;
+    width: 100%;
 }
 
 #operation-now, 
 #number-now {
     color: #fcfefe;
 }
+
+#calculum-now {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
