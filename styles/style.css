@@ -69,3 +69,12 @@ button {
     background-color: #ff3665;
     color: #fcfefe;
 }
+
+
+button:hover,
+#equal:hover {
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+
