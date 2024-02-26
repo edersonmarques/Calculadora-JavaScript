@@ -1,50 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title >CalculadoraJS</title>
-    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/49/49998.png" type="image/x-icon">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-    
-    <main id="calculator">
-        <!-- <input type="text" id="calculum-info" readonly> -->
-        <div id="calculum-info">
-            <div id="calculum-history">calc history here</div>
-            <div id="calculum-now">
-                <span id="operation-now">+</span>
-                <span id="number-now">3</span>
-            </div>
-        </div>
-        <ul id="inputs">
-            <li id="clear" class="utility-button"><button id="clear" class="utility-button">C</button></li>
-            <li  class="utility-button"><button id="percent" class="utility-button">%</button></li>
-            <li  class="utility-button"><button id="division" class="utility-button">/</button></li>
-            <li  class="utility-button"><button id="multiply" class="utility-button">*</button></li>
-            <li id="7" class="main-button"><button id="number7" class="main-button">7</button></li>
-            <li id="8" class="main-button"><button id="number8" class="main-button">8</button></li>
-            <li id="9" class="main-button"><button id="number9" class="main-button">9</button></li>
-            <li class="utility-button"><button id="minus" class="utility-button">-</button></li>
-            <li id="4" class="main-button"><button id="number4" class="main-button">4</button></li>
-            <li id="5" class="main-button"><button id="number5" class="main-button">5</button></li>
-            <li id="6" class="main-button"><button id="number6" class="main-button">6</button></li>
-            <li class="utility-button"><button id="plus" class="utility-button">+</button></li>
-            <li id="1" class="main-button"><button id="number1" class="main-button">1</button></li>
-            <li id="2" class="main-button"><button id="number2" class="main-button">2</button></li>
-            <li id="3" class="main-button"><button id="number3" class="main-button">3</button></li>
-            <li class="utility-button"><button id="backspace" class="utility-button">&#9003</button></li>
-            <li class="main-button"><button id="number0" class="main-button">0</button></li>
-            <li class="main-button"><button id="number00" class="main-button">00</button></li>
-            <li class="main-button"><button id="point" class="main-button">.</button></li>
-            <li id="equal-button" class="equal-button"><button id="equal" class="equal-button">=</button></li>
-        </ul>
-    </main>
-    <footer id="author">feito por Éderson :D</footer>
-
-    <script src="./script/script.js"></script>
-</body>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>CalculadoraJS</title>
+		<link
+			rel="shortcut icon"
+			href="https://cdn-icons-png.flaticon.com/512/49/49998.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="./styles/reset.css" />
+		<link rel="stylesheet" href="./styles/style.css" />
+	</head>
+	<body>
+		<main class="calculator">
+			<section class="calculums">
+				<div class="executed"></div>
+				<div class="result"></div>
+			</section>
+			<section class="buttons">
+				<button class="clear">C</button>
+                <button class="history">H</button>
+                <button class="percent">%</button>
+                <button class="division">÷</button>
+                <button class="seven">7</button>
+                <button class="eight">8</button>
+                <button class="nine">9</button>
+                <button class="multiply">x</button>
+                <button class="four">4</button>
+                <button class="five">5</button>
+                <button class="six">6</button>
+                <button class="minus">-</button>
+                <button class="dot">.</button>
+                <button class="zero">0</button>
+                <button class="backspace">⌫</button>
+                <button class="equal">=</button>
+			</section>
+		</main>
+		<script src="./script/script.js"></script>
+	</body>
 </html>
